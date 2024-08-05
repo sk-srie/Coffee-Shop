@@ -1,53 +1,10 @@
-    background-color: var(--main-color);
-    color: white;
-    padding: .5rem 1rem;
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    margin-top: 1rem;
-    transition: all .3s;
+Form        
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Address</label>
+            <input type="email" class="form-control" placeholder="enter your address">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Phone number</label>
+            <input type="number" class="form-control" placeholder="enter your mobile number">
+          </div>
 
-
-    display: inline-block;
-    padding: 1rem 1.5rem;
-    border-radius: var(--border-radius);
-    color: var(--main-color);
-    background: none;
-    border: var(--border);
-    cursor: pointer;
-    margin-top: 1rem;
-    font-size: 1.7rem;
-
-
-/* 
-@media(max-width: 991px) {
-    html{
-        font-size: 
-.btn:hover{
-    border-radius: var(--border-radius-hover);
-    border: var(--border-hover);
-}
-
-.header .btn{
-    margin-top: 055%;
-    }
-    .header{
-        padding:1.5rem;
-    } */
-/* } */
-/* @media(max-width: 768px) {
-    html{
-        font-size: 50%;
-    }
-    #menu-btn{
-        display: initial;
-    }
-    .header .navbar{
-        position: absolute;
-        top: 90%; left: 0; right: 0;
-        background-color: #5C4033;
-    }
-    .header .navbar a{
-        display: flex;
-        gap: 10px;
-    } */
-/* } */
